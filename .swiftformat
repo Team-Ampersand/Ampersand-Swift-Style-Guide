@@ -1,9 +1,11 @@
 
--- exclude fastlane,Dependencies,Carthage
+--exclude fastlane,Dependencies,Carthage
+--swiftversion 5.8
 
 # options
 --maxwidth 120
---indent 4
+--indent 4 # indent
+--ifdef no-indent # indent
 --trimwhitespace always # trailingSpace
 --lineaftermarks false # fileHeader
 --wraparguments before-first # wrapArguments
